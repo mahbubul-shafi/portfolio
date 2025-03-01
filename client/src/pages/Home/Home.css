@@ -1,0 +1,49 @@
+.home {
+    background-color: #2c2f34;
+    height: 300px;
+    color: #00796b; /* Dark teal for text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    color: #0288d1; /* Light blue for a calming effect */
+    text-transform: uppercase;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-left: 40px;
+    color: #01579b; /* Deep blue for contrast */
+    animation: slideIn 1s ease-in-out;
+}
+
+.btn {
+    display: flex;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #0288d1, #81d4fa); /* Gradient from blue to light blue */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 200px;
+    margin-left: 40px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #81d4fa, #0288d1); /* Reverse gradient on hover */
+    transform: scale(1.05);
+}

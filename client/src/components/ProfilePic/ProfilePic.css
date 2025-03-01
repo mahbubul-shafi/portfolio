@@ -1,0 +1,18 @@
+.profilePic {
+    width: 190px; /* Adjust size as needed */
+    height: 190px;
+    border-radius: 50%; /* Makes it circular */
+    overflow: hidden; /* Ensures no overflow */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #88bde2; /* White border for a clean look */
+    box-shadow: 0 1px 10px rgb(85, 131, 224); /* Soft shadow for depth */
+    margin-top: 50px;
+}
+
+.profilePic img {
+    width: 300px;
+    height: 300px;
+    transform: translateY(20px);
+}

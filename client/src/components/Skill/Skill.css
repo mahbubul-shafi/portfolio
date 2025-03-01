@@ -1,0 +1,43 @@
+.skill {
+    background-color: #f4f7fc; /* Light background for the card */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px 15px; /* Space inside the box */
+    text-align: center; /* Align text to the left */
+    margin: 10px; /* Space between the skills */
+    width: 200px; /* Set width for a smaller box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+    display: flex;
+    align-items: center; /* Align the icon and text vertically */
+    justify-content: center;
+    gap: 10px; /* Space between icon and text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.skill p {
+    margin: 0; /* Remove extra margin */
+    font-size: 1rem; /* Adjusted text size */
+    color: #333; /* Dark text color */
+    font-weight: 500;
+}
+
+.skill:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.skill svg {
+    font-size: 1.5rem; /* Adjusted icon size */
+}
+
+
+.teckstack-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the skill boxes */
+    gap: 10px; /* Space between skill boxes */
+}
+
+.teckstack-row .skill {
+    flex: 1 1 200px; /* Allow each skill to have flexible width */
+    max-width: 200px; /* Max width for better control */
+}

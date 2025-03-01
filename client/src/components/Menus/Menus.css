@@ -1,0 +1,38 @@
+.menus {
+    margin-top: 35px;
+    display: flex; /* Add flex display to the container */
+    width: 100%;
+    justify-content: flex-start; /* Align children to the left */
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    padding-left: 35px; /* Optional: Adds space on the left */
+}
+
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adds space between icon and text */
+    padding: 5px;
+    border-radius: 8px; /* Rounded corners for a modern look */
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: rgb(146, 68, 68); /* Light hover effect */
+}
+
+.icon {
+    font-size: 22px; /* Adjust icon size */
+}
+
+.name p {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
