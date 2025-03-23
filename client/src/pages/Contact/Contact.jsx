@@ -18,7 +18,7 @@ export const Contact = () => {
     e.preventDefault();
 
     const response = await fetch(
-      "https://portfolio-fgjl.onrender.com/api/v1/portfolio/sendEmail",
+      "https://portfolio-tvya.onrender.com/api/v1/portfolio/sendEmail",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },

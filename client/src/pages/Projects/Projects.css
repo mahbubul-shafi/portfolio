@@ -13,6 +13,8 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
+    max-width: 860px;
+    flex-wrap: wrap;
 }
 .project-item{
     height: 400px;
@@ -50,3 +52,4 @@
 .project-item button{
     margin: auto;
 }
+
